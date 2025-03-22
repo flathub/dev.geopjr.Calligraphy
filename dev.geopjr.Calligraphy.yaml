@@ -27,8 +27,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GeopJr/Calligraphy.git
-        tag: v1.1.0
-        commit: 629e220f1591f38530615fded98be6a9d46d0327
+        tag: v1.2.0
+        commit: 4b7d8b80c7389300a5d81779d898ae483d00e7d4
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
