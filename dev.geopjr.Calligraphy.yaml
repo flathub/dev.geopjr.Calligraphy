@@ -1,6 +1,6 @@
 app-id: dev.geopjr.Calligraphy
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: calligraphy
 finish-args:
@@ -16,9 +16,9 @@ modules:
     run-tests: true
     sources:
       - type: git
-        url: https://gitlab.gnome.org/GeopJr/Calligraphy.git
-        tag: v1.2.0
-        commit: 4b7d8b80c7389300a5d81779d898ae483d00e7d4
+        url: https://codeberg.org/GeopJr/Calligraphy.git
+        tag: v1.3.0
+        commit: 1d2a550b771637660fa2ec151f1ad70f62bea76b
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
